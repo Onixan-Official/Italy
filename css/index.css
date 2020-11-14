@@ -1,0 +1,117 @@
+/* ::::: http://179523.selcdn.com/landings-production/1420/css/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0px;
+    vertical-align: baseline;
+    outline: none;
+}
+
+button, input {
+    line-height: normal;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0px none;
+    padding: 0px;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+
+input[type="hidden"] {
+    display: none;
+}
+a {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* TIMER */
+.cta .time-block {
+    color: white;
+  }
+  .time-block {
+    width: 100%;
+    padding: 14px 20px 0;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+  }
+  
+  .time-title {
+    font-family: "Philosopher", sans-serif;
+    margin: 0 auto;
+    padding: 0 0 13px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+  .time-remain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  
+  .time-remain-items {
+    position: relative;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 14px;
+    z-index: 1;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .hour,
+  .minutes,
+  .seconds {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  
+  .time-dots {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    /* color: white; */
+  }
+  .time-remain-name {
+    font-size: 8px;
+    line-height: 11px;
+  }
+  
